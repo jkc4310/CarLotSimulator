@@ -5,7 +5,7 @@ namespace CarLotSimulator
     { //Car shall have the following properties: Year, Make, Model, EngineNoise, HonkNoise, IsDriveable
         public Car()
 		{
-
+			CarLot.numberOfCars++;
 		}
 
 		public Car(int year,string make,string model, string engineNoise,string honkNoise,bool isDriveable)
